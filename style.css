@@ -1,0 +1,56 @@
+
+.section {
+    position: relative; 
+    width: 50%; 
+    float: left; 
+    overflow: hidden; 
+}
+
+.section img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+.section h2 {
+    color: #333; 
+}
+
+.section p {
+    color: #666; 
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 10rem;
+}
+.text h1{
+    font-weight: 500 ;
+    font-size: 3rem;
+
+}
+.text p{
+    margin-top: 2rem;
+    color: rgb(116, 9, 9);
+   font-size: 2rem;
+}
+.button{
+    background-color: rgb(219, 86, 219);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Adjust the value to change the roundness */
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .btn:hover {
+    background-color: darkpurple; /* Change color on hover if needed */
+  }
+
+.anchor{
+    color:linear-gradient(90deg, rgb(80, 27, 93), rgb(202, 156, 113));
+    text-decoration: none;
+}
